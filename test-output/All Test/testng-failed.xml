@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.jci.Imap.Framework.TestCases.CompressorPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Verify_searchProjectname"/>
+          <include name="beforeClass"/>
+          <include name="Verify_clickMyprojectIcon"/>
+          <include name="testLoginPage"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.jci.Imap.Framework.TestCases.CompressorPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [All Test] -->

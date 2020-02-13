@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test" duration-ms="37454" started-at="2020-02-13T16:15:55 IST" finished-at="2020-02-13T16:16:32 IST">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="17503" started-at="2020-02-13T16:15:55 IST" finished-at="2020-02-13T16:16:12 IST">
+      <class name="com.jci.Imap.Framework.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="beforeTest" is-config="true" duration-ms="6151" started-at="2020-02-13T16:15:55 IST" finished-at="2020-02-13T16:16:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="beforeClass" is-config="true" duration-ms="8" started-at="2020-02-13T16:16:01 IST" finished-at="2020-02-13T16:16:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-02-13T16:16:01 IST" finished-at="2020-02-13T16:16:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jci.Imap.Framework.TestCases.LoginPageTest.testLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="testLoginPage" duration-ms="10010" started-at="2020-02-13T16:16:01 IST" description="Login test with valid credential" finished-at="2020-02-13T16:16:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="afterMethod" is-config="true" duration-ms="296" started-at="2020-02-13T16:16:11 IST" finished-at="2020-02-13T16:16:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPage status=SUCCESS method=LoginPageTest.testLoginPage()[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jci.Imap.Framework.TestCases.LoginPageTest@71c8becc]" name="afterTest" is-config="true" duration-ms="863" started-at="2020-02-13T16:16:12 IST" finished-at="2020-02-13T16:16:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.jci.Imap.Framework.TestCases.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test name="CompressorPageTest" duration-ms="19888" started-at="2020-02-13T16:16:12 IST" finished-at="2020-02-13T16:16:32 IST">
+      <class name="com.jci.Imap.Framework.TestCases.CompressorPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeSuite" is-config="true" duration-ms="127" started-at="2020-02-13T16:15:55 IST" finished-at="2020-02-13T16:15:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeTest" is-config="true" duration-ms="5009" started-at="2020-02-13T16:16:12 IST" finished-at="2020-02-13T16:16:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-13T16:16:17 IST" finished-at="2020-02-13T16:16:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-13T16:16:17 IST" finished-at="2020-02-13T16:16:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jci.Imap.Framework.TestCases.CompressorPageTest.testLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginPage()[pri:1, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="testLoginPage" duration-ms="12202" started-at="2020-02-13T16:16:17 IST" finished-at="2020-02-13T16:16:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="afterMethod" is-config="true" duration-ms="84" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPage status=SUCCESS method=CompressorPageTest.testLoginPage()[pri:1, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jci.Imap.Framework.TestCases.CompressorPageTest.Verify_clickMyprojectIcon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Verify_clickMyprojectIcon()[pri:2, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="Verify_clickMyprojectIcon" duration-ms="79" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_clickMyprojectIcon -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="afterMethod" is-config="true" duration-ms="100" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_clickMyprojectIcon status=SUCCESS method=CompressorPageTest.Verify_clickMyprojectIcon()[pri:2, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jci.Imap.Framework.TestCases.CompressorPageTest.Verify_searchProjectname()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Verify_searchProjectname()[pri:3, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="Verify_searchProjectname" duration-ms="1457" started-at="2020-02-13T16:16:30 IST" finished-at="2020-02-13T16:16:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_searchProjectname -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="afterMethod" is-config="true" duration-ms="59" started-at="2020-02-13T16:16:31 IST" finished-at="2020-02-13T16:16:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_searchProjectname status=SUCCESS method=CompressorPageTest.Verify_searchProjectname()[pri:3, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jci.Imap.Framework.TestCases.CompressorPageTest@6b19b79]" name="afterTest" is-config="true" duration-ms="846" started-at="2020-02-13T16:16:32 IST" finished-at="2020-02-13T16:16:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.jci.Imap.Framework.TestCases.CompressorPageTest -->
+    </test> <!-- CompressorPageTest -->
+  </suite> <!-- All Test -->
+</testng-results>

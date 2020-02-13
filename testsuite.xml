@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test">
+  
+  <test  name="LoginPageTest">
+    <classes>
+        <class name="com.jci.Imap.Framework.TestCases.LoginPageTest"/> 
+         </classes>
+          </test>
+          
+          <test  name="CompressorPageTest">
+          <classes>
+       <class name="com.jci.Imap.Framework.TestCases.CompressorPageTest"/>
+    </classes>
+  </test> 
+  
+</suite> 

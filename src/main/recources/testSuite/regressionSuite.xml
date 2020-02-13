@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+<listeners>
+
+<listener class-name="com.jci.ImapFramework.helper.listener.RetryListner"></listener>
+
+</listeners>
+
+
+<test name="FirstTest">
+
+<classes>
+
+<class name="com.jci.ImapFramework.helper.assertions.A"></class>
+
+</classes>
+
+</test>
+
+<test name="SecondTest">
+
+<classes>
+
+<class name="com.jci.ImapFramework.helper.assertions.B"></class>
+
+</classes>
+
+</test>
+
+<test name="ThirdTest">
+
+<classes>
+
+<class name="com.jci.ImapFramework.helper.assertions.C"></class>
+
+</classes>
+
+
+</test>
+
+</suite>
